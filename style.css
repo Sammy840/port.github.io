@@ -293,11 +293,12 @@ p {
 	margin-top: 30px;
 }
 .skills .skills-content .left .text{
-	font-weight: 100;
+	font-weight: 400;
 	margin-bottom: 10px;
 	text-align: justify;
 }
 .skills .skills-content .left p{
+	font-weight: 400;
 	text-align:justify;
 }
 
@@ -462,6 +463,7 @@ p {
 
 #about .col-right p {
 	margin-bottom: 20px;
+	font-weight: 500;
 }
 
 #about .col-right .cta {
