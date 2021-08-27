@@ -47,14 +47,14 @@ p {
 
 .cta {
 	display: inline-block;
-	padding: 10px 30px;
+	padding: 3px 12px;
 	color: white;
 	background-color: transparent;
 	border: 2px solid crimson;
-	font-size: 2rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
-	margin-top: 30px;
+	margin-top: 10px;
 	transition: .3s ease;
 	transition-property: background-color, color;
 }
@@ -63,7 +63,7 @@ p {
 	background-color: crimson;
 }
 .brand h1 {
-	font-size: 3rem;
+	font-size: 2rem;
 	text-transform: uppercase;
 	color: white;
 }
@@ -209,7 +209,7 @@ p {
 	background-position: top center;
 	position: relative;
 	z-index: 1;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 }
 #hero::after {
 	content: '';
@@ -234,7 +234,7 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal .5s ease forwards;
@@ -621,8 +621,9 @@ p {
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
-		font-size: 2.5rem;
-		padding: 20px 60px;
+		font-size: 1.5rem;
+		padding: 8px 18px;
+		margin-bottom: 30px;
 	}
 	h1.section-title {
 		font-size: 6rem;
@@ -630,7 +631,8 @@ p {
 
 	/* Hero */
 	#hero h1 {
-		font-size: 7rem;
+		margin-top: 10px;
+		font-size: 3.6rem;
 	}
 	/* End Hero */
 
