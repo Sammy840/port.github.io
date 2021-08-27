@@ -234,7 +234,8 @@ p {
 #hero h1 {
 	display: block;
 	width: fit-content;
-	font-size: 3rem;
+	margin-top: 2rem;
+	font-size: 4rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal .5s ease forwards;
@@ -743,7 +744,13 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
-	/* End header */
+	/* End of header */
+
+	/* Hero */
+	#hero h1{
+		font-size: 7rem;
+	}
+	/* End of Hero */
 
 	/* Skills */
 	.skills .skills-content{
