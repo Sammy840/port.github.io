@@ -356,10 +356,13 @@ p {
 	width: 90%;
 }
 .skills-content .right .css::before{
-	width: 70%;
+	width: 90%;
 }
 .skills-content .right .js::before{
-	width: 50%;
+	width: 80%;
+}
+.skills-content .right .react::before{
+	width: 60%;
 }
 /* End of skill Section */
 
